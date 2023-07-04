@@ -1,4 +1,11 @@
 /* ======================== */
+/* TAILWIND */
+/* ======================== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ======================== */
 /* RESET */
 /* ======================== */
 
@@ -77,9 +84,4 @@ select {
 		transition-duration: 0.01ms !important;
 		scroll-behavior: auto !important;
 	}
-}
-
-:root {
-	line-height: 1.5;
-	font-weight: 400;
 }
