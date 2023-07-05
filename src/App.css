@@ -1,4 +1,40 @@
 :root {
-	font-family: 'Manrope', sans-serif;
-	font-size: 1.75rem;
+	@apply font-main font-extrabold bg-blue-300 text-green-500;
+}
+
+body {
+	@apply flex items-center justify-center;
+}
+
+.advice-card {
+	@apply bg-blue-500 text-center max-w-lg mx-4 rounded-xl px-6 py-10 flex flex-col items-center relative drop-shadow-md;
+}
+
+.advice-number {
+	@apply uppercase text-xs tracking-[.25em] text-green-300 mb-6;
+}
+
+.advice-text {
+	@apply text-2xl mb-8;
+}
+
+.advice-text::before,
+.advice-text::after {
+	content: '"';
+}
+
+.advice-search {
+	@apply p-5 bg-green-300 rounded-full absolute bottom-0 translate-y-1/2 drop-shadow-sm hover:drop-shadow-accent  focus:ring-0 focus:ring-offset-0 border-none transition duration-300;
+}
+
+.advice-search:focus-visible {
+	@apply ring-0 ring-offset-0;
+}
+
+.advice-dice {
+	@apply w-6;
+}
+
+.divider {
+	@apply mb-8;
 }
