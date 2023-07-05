@@ -24,7 +24,7 @@ body {
 }
 
 .advice-search {
-	@apply p-5 bg-green-300 rounded-full absolute bottom-0 translate-y-1/2 drop-shadow-sm hover:drop-shadow-accent  focus:ring-0 focus:ring-offset-0 border-none transition duration-300;
+	@apply p-5 bg-green-300 rounded-full absolute bottom-0 translate-y-1/2 drop-shadow-sm hover:drop-shadow-accent  focus:ring-0 focus:ring-offset-0 border-none transition;
 }
 
 .advice-search:focus-visible {
